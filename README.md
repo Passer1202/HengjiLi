@@ -1,20 +1,14 @@
 # Hengji Li — Academic Homepage
 
-A compact, terminal-inspired academic homepage for Hengji Li. It is an original, dependency-free implementation built with semantic HTML, CSS, and vanilla JavaScript.
+The source for [Hengji Li's academic homepage](https://passer1202.github.io/HengjiLi/).
 
-## Local preview
+The site is a small, dependency-free static page built with HTML, CSS, and vanilla JavaScript. Its visual direction takes inspiration from the restrained, text-first shell presentation of [jiangyy/jiangyy.github.io](https://github.com/jiangyy/jiangyy.github.io); the source here is independently written.
 
-Open `index.html` directly, or serve this folder with any static file server.
+## Edit content
 
-## Content updates
+Academic information lives in `index.html`. The shell shortcuts live in `app.js`, and the visual design lives in `styles.css`.
 
-Edit the `sections` object in `app.js` to update the bio, education, research, publications, awards, and contact links.
+## Preview and deploy
 
-## Deployment
-
-The workflow in `.github/workflows/pages.yml` deploys the `main` branch to GitHub Pages. In the repository settings, choose **GitHub Actions** as the Pages source if it is not selected automatically.
-
-## Source note
-
-The interaction concept was inspired by the terminal-style presentation of `jiangyy/jiangyy.github.io`. No source code was copied; this site uses its own implementation and visual system.
+Open `index.html` in a browser for a local preview. Changes committed to `main` are deployed by `.github/workflows/pages.yml` through GitHub Pages.
 
