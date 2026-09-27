@@ -3,73 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Hengji Li — M.Sc. student at the School of Computer Science, Nanjing University, interested in 3D vision and computer systems."
-    />
-    <meta name="theme-color" content="#07110d" />
-    <title>Hengji Li — Academic Homepage</title>
+    <meta name="theme-color" content="#f6f6f4" />
+    <meta name="description" content="Hengji Li is an M.Sc. student at Nanjing University working on 3D generation, world models, and embodied intelligence." />
+    <title>Hengji Li · 李恒济</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <a class="skip-link" href="#terminal-output">Skip to content</a>
+    <a class="skip-link" href="#bio">Skip to content</a>
 
-    <main class="site-shell">
-      <header class="masthead" aria-label="Site header">
-        <a class="identity" href="#" data-command="about" aria-label="Hengji Li home">
-          <span class="status-dot" aria-hidden="true"></span>
-          <span>hengji@research</span>
-        </a>
-        <nav class="quick-nav" aria-label="Quick commands">
-          <button type="button" data-command="about">about</button>
-          <button type="button" data-command="papers">papers</button>
-          <button type="button" data-command="contact">contact</button>
+    <main class="page" id="top">
+      <header class="intro">
+        <p class="site-line"><span class="markdown-mark">#</span> <span lang="zh-CN">李恒济</span> <a href="mailto:221240073@smail.nju.edu.cn">221240073@smail.nju.edu.cn</a></p>
+
+        <h1 class="display-name">Hengji Li<span class="name-cursor" aria-hidden="true">_</span></h1>
+
+        <p class="affiliation"><strong>M.Sc. Student</strong> · <a href="https://cs.nju.edu.cn/" target="_blank" rel="noopener noreferrer">School of Computer Science</a> · <a href="https://www.nju.edu.cn/" target="_blank" rel="noopener noreferrer">Nanjing University</a></p>
+
+        <nav class="intro-links" aria-label="Main navigation">
+          <div><span aria-hidden="true">│</span> <a href="#bio">Bio</a> · <a href="#papers">Papers</a> · <a href="#honors">Honors</a></div>
+          <div><span aria-hidden="true">│</span> <a href="#education">Education</a> · <a href="#contact">Contact</a> · <a href="https://github.com/Passer1202" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
         </nav>
-      </header>
 
-      <section class="terminal" aria-label="Interactive academic profile">
-        <div class="terminal-bar" aria-hidden="true">
-          <span class="traffic red"></span>
-          <span class="traffic amber"></span>
-          <span class="traffic green"></span>
-          <span class="terminal-title">hengji.li — ~/homepage</span>
-        </div>
-
-        <div id="terminal-output" class="terminal-output" aria-live="polite"></div>
+        <p class="interest-line">I work on <strong>3D generation</strong>, <strong>world models</strong>, and <strong>embodied intelligence</strong>.</p>
+        <p class="shell-note">This page doubles as a small shell. Try <code>bio</code>, <code>papers</code>, <code>honors</code>, or <code>help</code>.</p>
 
         <form id="command-form" class="command-line" autocomplete="off">
-          <label class="prompt" for="command-input">
-            <span class="prompt-user">visitor@hengji</span><span class="prompt-separator">:</span><span class="prompt-path">~</span><span class="prompt-symbol">$</span>
-          </label>
-          <input
-            id="command-input"
-            name="command"
-            type="text"
-            inputmode="text"
-            spellcheck="false"
-            aria-describedby="command-hint"
-            autofocus
-          />
+          <label for="command-input"><span class="prompt-user">hengji:/</span><span class="prompt-symbol">$</span></label>
+          <input id="command-input" name="command" type="text" spellcheck="false" aria-label="Terminal command" />
         </form>
-        <p id="command-hint" class="sr-only">Type help to list available commands.</p>
+        <div id="command-output" class="command-output" role="status" aria-live="polite"></div>
+      </header>
+
+      <section class="content-section" id="bio" aria-labelledby="bio-heading">
+        <h2 id="bio-heading"><span class="markdown-mark">#</span> Bio</h2>
+        <p>I am pursuing a research-track M.Sc. at the School of Computer Science, Nanjing University, having joined in 2026. My interests are in 3D generation, world models, and embodied intelligence.</p>
       </section>
 
-      <footer>
-        <span>Hengji Li</span>
-        <span>Built as a small, dependency-free static site.</span>
-      </footer>
-    </main>
+      <section class="content-section" id="papers" aria-labelledby="papers-heading">
+        <h2 id="papers-heading"><span class="markdown-mark">#</span> Papers</h2>
+        <article class="paper">
+          <div class="paper-index">[1]</div>
+          <div>
+            <h3><a href="https://arxiv.org/abs/2601.17733" target="_blank" rel="noopener noreferrer">Flatten The Complex: Joint B-Rep Generation via Compositional <em>k</em>-Cell Particles</a></h3>
+            <p class="authors">Junran Lu, Yuanqi Li, <strong>Hengji Li</strong>, Jie Guo, Yanwen Guo</p>
+            <p class="venue">SIGGRAPH 2026 · Conference Paper Track</p>
+            <p class="paper-links"><a href="https://arxiv.org/abs/2601.17733" target="_blank" rel="noopener noreferrer">arXiv</a> <span>·</span> <a href="https://doi.org/10.1145/3799902.3811197" target="_blank" rel="noopener noreferrer">ACM DOI</a></p>
+          </div>
+        </article>
+      </section>
 
-    <noscript>
-      <div class="noscript">
-        <h1>Hengji Li</h1>
-        <p>M.Sc. student at the School of Computer Science, Nanjing University, interested in 3D vision and computer systems.</p>
-        <p>Email: <a href="mailto:221240073@smail.nju.edu.cn">221240073@smail.nju.edu.cn</a></p>
-        <h2>Paper</h2>
-        <p><a href="https://arxiv.org/abs/2601.17733"><cite>Flatten The Complex: Joint B-Rep Generation via Compositional k-Cell Particles</cite></a>, with Junran Lu, Yuanqi Li, Jie Guo, and Yanwen Guo. arXiv:2601.17733, 2026.</p>
-      </div>
-    </noscript>
+      <section class="content-section" id="honors" aria-labelledby="honors-heading">
+        <h2 id="honors-heading"><span class="markdown-mark">#</span> Honors &amp; awards</h2>
+        <ul class="timeline">
+          <li><span class="year">2026</span><span lang="zh-CN">南京大学优秀毕业生</span></li>
+          <li><span class="year">2025</span><span lang="zh-CN">人民奖学金一等奖</span></li>
+          <li><span class="year">2025</span><span lang="zh-CN">南京大学本科生基础学科专项奖学金</span></li>
+          <li><span class="year">2025</span><span lang="zh-CN">南京大学优秀共青团干部（团支部书记专项）</span></li>
+          <li><span class="year">2024</span><span lang="zh-CN">南京大学本科生基础学科专项奖学金·优秀奖；人民奖学金三等奖</span></li>
+          <li><span class="year">2023</span><span lang="zh-CN">南京大学本科生基础学科专项奖学金·优秀奖；人民奖学金二等奖</span></li>
+        </ul>
+      </section>
+
+      <section class="content-section" id="education" aria-labelledby="education-heading">
+        <h2 id="education-heading"><span class="markdown-mark">#</span> Education</h2>
+        <ul class="timeline">
+          <li><span class="year">2026—</span><span><strong>M.Sc. in Computer Science</strong><br />School of Computer Science, Nanjing University</span></li>
+          <li><span class="year">2022—2026</span><span><strong>B.Sc. in Computer Science</strong><br />Kuang Yaming Honors School, Nanjing University · GPA 4.50/5.00</span></li>
+        </ul>
+      </section>
+
+      <section class="content-section" id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading"><span class="markdown-mark">#</span> Contact</h2>
+        <p>Email: <a href="mailto:221240073@smail.nju.edu.cn">221240073@smail.nju.edu.cn</a><br />GitHub: <a href="https://github.com/Passer1202" target="_blank" rel="noopener noreferrer">github.com/Passer1202</a></p>
+      </section>
+
+      <footer>Last updated: September 2026 <span aria-hidden="true">·</span> <a href="#top">back to top ↑</a></footer>
+    </main>
 
     <script src="./app.js"></script>
   </body>
 </html>
+
