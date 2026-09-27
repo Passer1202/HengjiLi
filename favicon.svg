@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect x="1" y="1" width="62" height="62" rx="8" fill="#fdfdfc" stroke="#dcdde0" stroke-width="2"/>
-  <text x="9" y="44" fill="#303137" font-family="monospace" font-size="30" font-weight="bold" letter-spacing="-4">HL</text>
-  <rect x="48" y="47" width="9" height="3" fill="#5556aa"/>
-</svg>
-

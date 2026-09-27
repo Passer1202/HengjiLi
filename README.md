@@ -2,13 +2,15 @@
 
 The source for [Hengji Li's academic homepage](https://passer1202.github.io/HengjiLi/).
 
-The site is a small, dependency-free static page built with HTML, CSS, and vanilla JavaScript. Its visual direction takes inspiration from the restrained, text-first shell presentation of [jiangyy/jiangyy.github.io](https://github.com/jiangyy/jiangyy.github.io); the source here is independently written. The introduction is the only content shown at first; clicking a section or typing its command opens the details inside the terminal.
+This version is directly adapted from [jiangyy/jiangyy.github.io at `caebe1d`](https://github.com/jiangyy/jiangyy.github.io/tree/caebe1d07f0029a2e5a16d508727308f747f27eb): it uses the upstream xterm.js terminal, Markdown content compiler, shell commands, typography, and screen-clearing page navigation. Hengji's content and GitHub Pages configuration are maintained here. The reference repository did not include a license file when this adaptation was made; this repository does not assert a license over its upstream code.
 
-## Edit content
+The bundled Maple Mono font comes from the [Maple Mono project](https://github.com/42willow/maple-mono) and is under the [SIL Open Font License 1.1](https://openfontlicense.org/).
 
-Academic information lives in the `<template>` elements of `index.html`. The shell commands live in `app.js`, and the visual design lives in `styles.css`.
+## Local development
 
-## Preview and deploy
+Install with `npm ci`, run `npm run dev`, and open the local URL shown by Vite. `npm run build` compiles the Markdown documents and produces `dist/` for GitHub Pages. `npm test` and `npm run typecheck` verify the shell and content compiler.
 
-Open `index.html` in a browser for a local preview. Changes committed to `main` are deployed by `.github/workflows/pages.yml` through GitHub Pages.
+Edit the profile pages in `content/`. The shell runtime is in `src/`, and the font and visual styles are in `public/`.
+
+Commits to `main` build and deploy the site through `.github/workflows/pages.yml` to the `/HengjiLi/` project path.
 

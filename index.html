@@ -1,128 +1,40 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#f7f7f6" />
-    <meta name="description" content="Hengji Li is a master's student at Nanjing University interested in 3D generation, world models, and embodied intelligence." />
-    <title>Hengji Li · Academic Homepage</title>
-    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <a class="skip-link" href="#terminal-history">Skip to terminal content</a>
 
-    <main class="terminal" id="home">
-      <header class="topline">
-        <span class="topline-mark" aria-hidden="true">#</span>
-        <button type="button" class="topline-name" data-command="home">Hengji Li</button>
-        <a href="mailto:hengji1202@gmail.com">hengji1202@gmail.com</a>
-      </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fafafa" />
+  <meta name="description" content="Hengji Li is a master's student at Nanjing University exploring 3D generation, world models, and embodied intelligence." />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Hengji Li · Academic Homepage</title>
+</head>
 
-      <section class="welcome" aria-labelledby="name-heading">
-        <h1 class="wordmark" id="name-heading" aria-label="Hengji Li"><span class="pixel-wordmark" aria-hidden="true">█   █ █████ █   █  ████   ███ █████     █     █████
-█   █ █     ██  █ █        █    █       █       █
-█   █ █     █ █ █ █        █    █       █       █
-█████ ████  █  ██ █  ██    █    █       █       █
-█   █ █     █   █ █   █ █  █    █       █       █
-█   █ █     █   █ █   █ █  █    █       █       █
-█   █ █████ █   █  ████  ██   █████     █████ █████</span></h1>
+<body>
+  <!-- CRT pixel misalignment (the "smudge" you liked from the first version): a
+       smooth feTurbulence field drives feDisplacementMap at a small scale, so
+       pixels shift a hair organically — text stays sharp and clear (no blur,
+       no background noise), just a subtle painted misalignment. Uses in-filter
+       turbulence directly (no feImage / external PNG → Safari-friendly), no
+       radial barrel (no corner distortion), region pinned to the box (no
+       offset "ghost"). -->
+  <svg class="defs-only" aria-hidden="true" focusable="false">
+    <defs>
+      <filter id="crt-smudge" color-interpolation-filters="sRGB"
+              x="0" y="0" width="100%" height="100%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.01" numOctaves="1" seed="5" result="noise"></feTurbulence>
+        <feDisplacementMap in="SourceGraphic" in2="noise" scale="4"
+                           xChannelSelector="R" yChannelSelector="G"></feDisplacementMap>
+      </filter>
+    </defs>
+  </svg>
+  <div id="app">
+    <div id="term-host">
+      <div id="term-screen"></div>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
 
-        <p class="affiliation"><strong>Master's Student</strong><span class="separator">·</span><a href="https://cs.nju.edu.cn/" target="_blank" rel="noopener noreferrer">School of Computer Science</a><span class="separator">·</span><a href="https://www.nju.edu.cn/" target="_blank" rel="noopener noreferrer">Nanjing University</a></p>
-
-        <nav class="section-nav" aria-label="Explore sections">
-          <div class="nav-row"><span class="nav-prefix" aria-hidden="true">›</span><button type="button" data-command="bio">Bio</button><span class="nav-divider">·</span><button type="button" data-command="papers">Papers</button><span class="nav-divider">·</span><button type="button" data-command="honors">Honors</button></div>
-          <div class="nav-row"><span class="nav-prefix" aria-hidden="true">›</span><button type="button" data-command="education">Education</button><span class="nav-divider">·</span><button type="button" data-command="contact">Contact</button><span class="nav-divider">·</span><a href="https://github.com/Passer1202" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
-        </nav>
-
-        <p class="interest-line">I explore 3D generation, world models, and embodied intelligence.</p>
-        <p class="shell-hint">Explore with the links above, or type <code>help</code> below.</p>
-        <p class="last-update">Last updated: September 2026</p>
-      </section>
-
-      <div id="terminal-history" class="terminal-history" aria-live="polite"></div>
-
-      <form id="command-form" class="command-line" autocomplete="off">
-        <label for="command-input"><span class="prompt-user">hengji:/</span><span class="prompt-symbol">$</span></label>
-        <input id="command-input" name="command" type="text" spellcheck="false" autocapitalize="off" aria-label="Terminal command" />
-      </form>
-
-      <noscript><p class="noscript-message">Enable JavaScript to open the sections and use the terminal.</p></noscript>
-    </main>
-
-    <template id="panel-bio">
-      <h2>Bio</h2>
-      <p>I am a master's student at the School of Computer Science, Nanjing University. I joined the program in 2026 through recommendation-based admission without an entrance examination.</p>
-      <p>Previously, I studied Computer Science at Kuang Yaming Honors School, Nanjing University, graduating with a GPA of 4.51/5.00. My research interests are 3D generation, world models, and embodied intelligence.</p>
-    </template>
-
-    <template id="panel-papers">
-      <h2>Papers</h2>
-      <article class="paper">
-        <span class="paper-index">[1]</span>
-        <div>
-          <h3><a href="https://arxiv.org/abs/2601.17733" target="_blank" rel="noopener noreferrer">Flatten The Complex: Joint B-Rep Generation via Compositional <em>k</em>-Cell Particles</a></h3>
-          <p class="authors">Junran Lu, Yuanqi Li, <strong>Hengji Li</strong>, Jie Guo, Yanwen Guo</p>
-          <p class="venue">SIGGRAPH 2026 · Conference Paper Track</p>
-          <p class="paper-links"><a href="https://arxiv.org/abs/2601.17733" target="_blank" rel="noopener noreferrer">arXiv</a><span>·</span><a href="https://doi.org/10.1145/3799902.3811197" target="_blank" rel="noopener noreferrer">ACM DOI</a></p>
-        </div>
-      </article>
-    </template>
-
-    <template id="panel-honors">
-      <h2>Honors &amp; Awards</h2>
-      <ul class="timeline">
-        <li><span class="year">2026</span><span>Outstanding Graduate, Nanjing University</span></li>
-        <li><span class="year">2025</span><span>People's Scholarship, First Prize</span></li>
-        <li><span class="year">2025</span><span>Basic Disciplines Special Scholarship, Excellence Award</span></li>
-        <li><span class="year">2025</span><span>Outstanding Communist Youth League Cadre (Branch Secretary Category), Nanjing University</span></li>
-        <li><span class="year">2024</span><span>Basic Disciplines Special Scholarship, Excellence Award; People's Scholarship, Third Prize</span></li>
-        <li><span class="year">2023</span><span>Basic Disciplines Special Scholarship, Excellence Award; People's Scholarship, Second Prize</span></li>
-      </ul>
-    </template>
-
-    <template id="panel-education">
-      <h2>Education</h2>
-      <ul class="timeline">
-        <li><span class="year">2026–present</span><span><strong>M.Sc. in Computer Science</strong><br />School of Computer Science, Nanjing University<br /><span class="muted">Admitted by recommendation, without an entrance examination</span></span></li>
-        <li><span class="year">2022–2026</span><span><strong>B.Sc. in Computer Science</strong><br />Kuang Yaming Honors School, Nanjing University<br /><span class="muted">GPA: 4.51/5.00</span></span></li>
-      </ul>
-    </template>
-
-    <template id="panel-contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:hengji1202@gmail.com">hengji1202@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/Passer1202" target="_blank" rel="noopener noreferrer">github.com/Passer1202</a></p>
-    </template>
-
-    <template id="panel-help">
-      <h2>Help</h2>
-      <p>This site is a small terminal. Profile documents are also commands: <code>bio</code>, <code>papers</code>, <code>honors</code>, <code>education</code>, and <code>contact</code>.</p>
-      <h3>Commands</h3>
-      <ul class="help-list">
-        <li><code>ls [dir]</code><span>list the available documents or tools</span></li>
-        <li><code>cat &lt;path&gt;</code><span>print a document as text</span></li>
-        <li><code>head [-n N] &lt;path&gt;</code><span>show the first lines</span></li>
-        <li><code>tail [-n N] &lt;path&gt;</code><span>show the last lines</span></li>
-        <li><code>grep &lt;pattern&gt; [path]</code><span>filter matching lines</span></li>
-        <li><code>find [path] [-name pattern]</code><span>find documents and tools</span></li>
-        <li><code>tree [path]</code><span>draw the document tree</span></li>
-        <li><code>cd &lt;dir&gt;</code><span>change between <code>/</code> and <code>/bin</code></span></li>
-        <li><code>pwd</code><span>show the current directory</span></li>
-        <li><code>wc [path]</code><span>count lines, words, and bytes</span></li>
-        <li><code>more &lt;path&gt;</code><span>read a document</span></li>
-        <li><code>clear</code><span>clear the terminal output</span></li>
-        <li><code>exit</code><span>return to the introduction</span></li>
-      </ul>
-      <h3>Tips</h3>
-      <ul class="tips-list">
-        <li>Type a document name such as <code>papers</code> to open its formatted page.</li>
-        <li>Pipes work: <code>cat papers | grep Hengji</code> or <code>cat bio | wc</code>.</li>
-        <li>Use ↑ and ↓ to revisit commands.</li>
-      </ul>
-    </template>
-
-    <script src="./app.js"></script>
-  </body>
 </html>
-
