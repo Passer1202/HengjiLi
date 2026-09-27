@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hengji Li — M.Sc. student at the School of Computer Science, Nanjing University, interested in 3D vision and computer systems."
+    />
+    <meta name="theme-color" content="#07110d" />
+    <title>Hengji Li — Academic Homepage</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#terminal-output">Skip to content</a>
+
+    <main class="site-shell">
+      <header class="masthead" aria-label="Site header">
+        <a class="identity" href="#" data-command="about" aria-label="Hengji Li home">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span>hengji@research</span>
+        </a>
+        <nav class="quick-nav" aria-label="Quick commands">
+          <button type="button" data-command="about">about</button>
+          <button type="button" data-command="papers">papers</button>
+          <button type="button" data-command="contact">contact</button>
+        </nav>
+      </header>
+
+      <section class="terminal" aria-label="Interactive academic profile">
+        <div class="terminal-bar" aria-hidden="true">
+          <span class="traffic red"></span>
+          <span class="traffic amber"></span>
+          <span class="traffic green"></span>
+          <span class="terminal-title">hengji.li — ~/homepage</span>
+        </div>
+
+        <div id="terminal-output" class="terminal-output" aria-live="polite"></div>
+
+        <form id="command-form" class="command-line" autocomplete="off">
+          <label class="prompt" for="command-input">
+            <span class="prompt-user">visitor@hengji</span><span class="prompt-separator">:</span><span class="prompt-path">~</span><span class="prompt-symbol">$</span>
+          </label>
+          <input
+            id="command-input"
+            name="command"
+            type="text"
+            inputmode="text"
+            spellcheck="false"
+            aria-describedby="command-hint"
+            autofocus
+          />
+        </form>
+        <p id="command-hint" class="sr-only">Type help to list available commands.</p>
+      </section>
+
+      <footer>
+        <span>Hengji Li</span>
+        <span>Built as a small, dependency-free static site.</span>
+      </footer>
+    </main>
+
+    <noscript>
+      <div class="noscript">
+        <h1>Hengji Li</h1>
+        <p>M.Sc. student at the School of Computer Science, Nanjing University, interested in 3D vision and computer systems.</p>
+        <p>Email: <a href="mailto:221240073@smail.nju.edu.cn">221240073@smail.nju.edu.cn</a></p>
+        <h2>Paper</h2>
+        <p><a href="https://arxiv.org/abs/2601.17733"><cite>Flatten The Complex: Joint B-Rep Generation via Compositional k-Cell Particles</cite></a>, with Junran Lu, Yuanqi Li, Jie Guo, and Yanwen Guo. arXiv:2601.17733, 2026.</p>
+      </div>
+    </noscript>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
