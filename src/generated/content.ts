@@ -6,7 +6,7 @@ export const manifest: Manifest = {
     {
       "slug": "bio",
       "title": "Bio",
-      "body": "# Bio\n\nI am a master's student at the [School of Computer Science](https://cs.nju.edu.cn/), [Nanjing University](https://www.nju.edu.cn/). I joined the program in 2026 through recommendation-based admission without an entrance examination.\n\nPreviously, I studied Computer Science at Kuang Yaming Honors School, Nanjing University. I graduated in 2026 with a GPA of **4.51/5.00**.\n\nMy research interests are **3D generation, world models, and embodied intelligence**.\n\n> 📚 [Papers](#papers) · 🎓 [Education](#education) · 🏅 [Honors](#honors)",
+      "body": "# Bio\n\nI am a master's student at the [School of Computer Science](https://cs.nju.edu.cn/), [Nanjing University](https://www.nju.edu.cn/). I joined the program in 2026 through recommendation-based admission without an entrance examination.\n\nPreviously, I studied Computer Science at Kuang Yaming Honors School, Nanjing University. I graduated in 2026 as an Outstanding Graduate of Nanjing University.\n\nMy research interests are **3D generation, world models, and embodied intelligence**.\n\n> 📚 [Papers](#papers) · 🎓 [Education](#education) · 🏅 [Honors](#honors)",
       "path": "bio.md",
       "kind": "page",
       "apps": []
@@ -14,7 +14,7 @@ export const manifest: Manifest = {
     {
       "slug": "contact",
       "title": "Contact",
-      "body": "# Contact\n\n- Email: [hengji1202@gmail.com](mailto:hengji1202@gmail.com)\n- GitHub: [github.com/Passer1202](https://github.com/Passer1202)\n\n> 👤 [Bio](#bio) · 📚 [Papers](#papers)",
+      "body": "# Contact\n\n- Email: [hengji1202@gmail.com](mailto:hengji1202@gmail.com)\n- GitHub: [github.com/Passer1202](https://github.com/Passer1202)\n- Rednote: [Xiaohongshu profile](https://www.xiaohongshu.com/user/profile/66b59cd0000000001d0226f6)",
       "path": "contact.md",
       "kind": "page",
       "apps": []
@@ -22,7 +22,7 @@ export const manifest: Manifest = {
     {
       "slug": "education",
       "title": "Education",
-      "body": "# Education\n\n## 2026–present\n\n**M.Sc. in Computer Science**\\\nSchool of Computer Science, Nanjing University.\\\nAdmitted by recommendation, without an entrance examination.\n\n## 2022–2026\n\n**B.Sc. in Computer Science**\\\nKuang Yaming Honors School, Nanjing University.\\\nFinal GPA: **4.51/5.00**.\n\n> 👤 [Bio](#bio) · 🏅 [Honors](#honors)",
+      "body": "# Education\n\n## 2026–present\n\n**Master of Engineering in Computer Science**\\\nSchool of Computer Science, Nanjing University.\\\nAdmitted by recommendation, without an entrance examination.\n\n## 2022–2026\n\n**B.Sc. in Computer Science**\\\nKuang Yaming Honors School, Nanjing University.\\\nFinal GPA: **4.51/5.00**.",
       "path": "education.md",
       "kind": "page",
       "apps": []
@@ -38,15 +38,15 @@ export const manifest: Manifest = {
     {
       "slug": "honors",
       "title": "Honors & Awards",
-      "body": "# Honors & Awards\n\n## 2026\n\n- Outstanding Graduate, Nanjing University.\n\n## 2025\n\n- People's Scholarship, First Prize.\n- Basic Disciplines Special Scholarship, Excellence Award.\n- Outstanding Communist Youth League Cadre (Branch Secretary Category), Nanjing University.\n\n## 2024\n\n- Basic Disciplines Special Scholarship, Excellence Award.\n- People's Scholarship, Third Prize.\n\n## 2023\n\n- Basic Disciplines Special Scholarship, Excellence Award.\n- People's Scholarship, Second Prize.\n\n> 👤 [Bio](#bio) · 🎓 [Education](#education)",
+      "body": "# Honors & Awards\n\n## 2026\n\n- Outstanding Graduate, Nanjing University.\n\n## 2025\n\n- People's Scholarship, First Prize.\n- Nanjing University Undergraduate Basic Disciplines Special Scholarship, Excellence Award.\n- Outstanding Communist Youth League Cadre (Branch Secretary Category), Nanjing University.\n\n## 2024\n\n- Nanjing University Undergraduate Basic Disciplines Special Scholarship, Excellence Award.\n- People's Scholarship, Third Prize.\n\n## 2023\n\n- Nanjing University Undergraduate Basic Disciplines Special Scholarship, Excellence Award.\n- People's Scholarship, Second Prize.",
       "path": "honors.md",
       "kind": "page",
       "apps": []
     },
     {
       "slug": "index",
-      "title": "Hengji Li · hengji1202@gmail.com",
-      "body": "# Hengji Li · hengji1202@gmail.com\n\n```plain\n█  █ ████ █  █  ███  ███ ████    █    ████\n█  █ █    ██ █ █       █  ██     █     ██\n████ ███  █ ██ █ ██    █  ██     █     ██\n█  █ █    █  █ █  █ █  █  ██     █     ██\n█  █ ████ █  █  ███  ██  ████    ████ ████\n```\n\n**Master's Student** · [School of Computer Science](https://cs.nju.edu.cn/) · [Nanjing University](https://www.nju.edu.cn/)\n\n> 👤 [Bio](#bio) · 📚 [Papers](#papers) · 🏅 [Honors](#honors)\n> 🎓 [Education](#education) · ✉ [Contact](#contact) · 💻 [GitHub](https://github.com/Passer1202)\n\n*I explore 3D generation, world models, and embodied intelligence.*\n\n- This page doubles as a shell.\n  Try: `bio`, `papers`, `help`, or `tree /bin`.\n\nLast update: September 27, 2026",
+      "title": "李恒济 · hengji1202@gmail.com",
+      "body": "# 李恒济 · hengji1202@gmail.com\n\n```plain\n█  █ ████ █  █  ███  ███ ████    █    ████\n█  █ █    ██ █ █       █  ██     █     ██\n████ ███  █ ██ █ ██    █  ██     █     ██\n█  █ █    █  █ █  █ █  █  ██     █     ██\n█  █ ████ █  █  ███  ██  ████    ████ ████\n```\n\n**Master's Student** · [School of Computer Science](https://cs.nju.edu.cn/) · [Nanjing University](https://www.nju.edu.cn/)\n\n> 👤 [Bio](#bio) · 📚 [Papers](#papers) · 🏅 [Honors](#honors)\n> 🎓 [Education](#education) · ✉ [Contact](#contact)\n> 💻 [GitHub](https://github.com/Passer1202) · 📕 [Rednote](https://www.xiaohongshu.com/user/profile/66b59cd0000000001d0226f6)\n\n*I explore 3D generation, world models, and embodied intelligence.*\n\n- This page doubles as a shell.\n  Try: `bio`, `papers`, `help`, or `tree /bin`.\n\nLast update: September 28, 2026",
       "path": "index.md",
       "kind": "page",
       "apps": []
@@ -54,7 +54,7 @@ export const manifest: Manifest = {
     {
       "slug": "papers",
       "title": "Papers",
-      "body": "# Papers\n\n## 2026\n\n- **Flatten The Complex: Joint B-Rep Generation via Compositional k-Cell Particles**\\\n  Junran Lu, Yuanqi Li, **Hengji Li**, Jie Guo, Yanwen Guo.\\\n  *SIGGRAPH 2026, Conference Paper Track.*\\\n  [arXiv](https://arxiv.org/abs/2601.17733) · [ACM DOI](https://doi.org/10.1145/3799902.3811197)\n\n> 👤 [Bio](#bio) · 🏅 [Honors](#honors)",
+      "body": "# Papers\n\n## 2026\n\n- **Flatten The Complex: Joint B-Rep Generation via Compositional k-Cell Particles**\\\n  Junran Lu, Yuanqi Li, **Hengji Li**, Jie Guo, Yanwen Guo.\\\n  *SIGGRAPH 2026, Conference Paper Track.*\\\n  [arXiv](https://arxiv.org/abs/2601.17733) · [ACM DOI](https://doi.org/10.1145/3799902.3811197)",
       "path": "papers.md",
       "kind": "page",
       "apps": []

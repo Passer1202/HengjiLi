@@ -2,7 +2,7 @@
 
 ## 2026–present
 
-**M.Sc. in Computer Science**\
+**Master of Engineering in Computer Science**\
 School of Computer Science, Nanjing University.\
 Admitted by recommendation, without an entrance examination.
 
@@ -11,5 +11,3 @@ Admitted by recommendation, without an entrance examination.
 **B.Sc. in Computer Science**\
 Kuang Yaming Honors School, Nanjing University.\
 Final GPA: **4.51/5.00**.
-
-> 👤 [Bio](#bio) · 🏅 [Honors](#honors)
