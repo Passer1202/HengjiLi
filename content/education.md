@@ -2,7 +2,7 @@
 
 ## 2026–present
 
-**Master of Engineering in Computer Science**\
+**M.Eng. in Computer Science**\
 School of Computer Science, Nanjing University.\
 Admitted by recommendation, without an entrance examination.
 

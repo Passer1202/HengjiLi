@@ -14,7 +14,7 @@ export const manifest: Manifest = {
     {
       "slug": "contact",
       "title": "Contact",
-      "body": "# Contact\n\n- Email: [hengji1202@gmail.com](mailto:hengji1202@gmail.com)\n- GitHub: [github.com/Passer1202](https://github.com/Passer1202)\n- Rednote: [Xiaohongshu profile](https://www.xiaohongshu.com/user/profile/66b59cd0000000001d0226f6)",
+      "body": "# Contact\n\n- Email: [hengji1202@gmail.com](mailto:hengji1202@gmail.com)\n- GitHub: [github.com/Passer1202](https://github.com/Passer1202)\n- Rednote: [Xiaohongshu profile](https://www.xiaohongshu.com/user/profile/66b59cd0000000001d0226f6)\n- Zhihu: [zhihu.com/people/passer-20-84](https://www.zhihu.com/people/passer-20-84)",
       "path": "contact.md",
       "kind": "page",
       "apps": []
@@ -22,7 +22,7 @@ export const manifest: Manifest = {
     {
       "slug": "education",
       "title": "Education",
-      "body": "# Education\n\n## 2026–present\n\n**Master of Engineering in Computer Science**\\\nSchool of Computer Science, Nanjing University.\\\nAdmitted by recommendation, without an entrance examination.\n\n## 2022–2026\n\n**B.Sc. in Computer Science**\\\nKuang Yaming Honors School, Nanjing University.\\\nFinal GPA: **4.51/5.00**.",
+      "body": "# Education\n\n## 2026–present\n\n**M.Eng. in Computer Science**\\\nSchool of Computer Science, Nanjing University.\\\nAdmitted by recommendation, without an entrance examination.\n\n## 2022–2026\n\n**B.Sc. in Computer Science**\\\nKuang Yaming Honors School, Nanjing University.\\\nFinal GPA: **4.51/5.00**.",
       "path": "education.md",
       "kind": "page",
       "apps": []
@@ -46,7 +46,7 @@ export const manifest: Manifest = {
     {
       "slug": "index",
       "title": "李恒济 · hengji1202@gmail.com",
-      "body": "# 李恒济 · hengji1202@gmail.com\n\n```plain\n█  █ ████ █  █  ███  ███ ████    █    ████\n█  █ █    ██ █ █       █  ██     █     ██\n████ ███  █ ██ █ ██    █  ██     █     ██\n█  █ █    █  █ █  █ █  █  ██     █     ██\n█  █ ████ █  █  ███  ██  ████    ████ ████\n```\n\n**Master's Student** · [School of Computer Science](https://cs.nju.edu.cn/) · [Nanjing University](https://www.nju.edu.cn/)\n\n> 👤 [Bio](#bio) · 📚 [Papers](#papers) · 🏅 [Honors](#honors)\n> 🎓 [Education](#education) · ✉ [Contact](#contact)\n> 💻 [GitHub](https://github.com/Passer1202) · 📕 [Rednote](https://www.xiaohongshu.com/user/profile/66b59cd0000000001d0226f6)\n\n*I explore 3D generation, world models, and embodied intelligence.*\n\n- This page doubles as a shell.\n  Try: `bio`, `papers`, `help`, or `tree /bin`.\n\nLast update: September 28, 2026",
+      "body": "# 李恒济 · hengji1202@gmail.com\n\n```plain\n█  █ ████ █  █  ███  ███ ████    █    ████\n█  █ █    ██ █ █       █  ██     █     ██\n████ ███  █ ██ █ ██    █  ██     █     ██\n█  █ █    █  █ █  █ █  █  ██     █     ██\n█  █ ████ █  █  ███  ██  ████    ████ ████\n```\n\n**Master's Student** · [School of Computer Science](https://cs.nju.edu.cn/) · [Nanjing University](https://www.nju.edu.cn/)\n\n> 👤 [Bio](#bio) · 📚 [Papers](#papers) · 🏅 [Honors](#honors)\n> 🎓 [Education](#education) · ✉ [Contact](#contact)\n> 💻 [GitHub](https://github.com/Passer1202) · 📕 [Rednote](https://www.xiaohongshu.com/user/profile/66b59cd0000000001d0226f6) · 📝 [Zhihu](https://www.zhihu.com/people/passer-20-84)\n\n*I explore 3D generation, world models, and embodied intelligence.*\n\n- This page doubles as a shell.\n  Try: `bio`, `papers`, `help`, or `tree /bin`.\n\nLast update: September 28, 2026",
       "path": "index.md",
       "kind": "page",
       "apps": []

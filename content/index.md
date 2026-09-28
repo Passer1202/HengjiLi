@@ -12,7 +12,7 @@
 
 > 👤 [Bio](#bio) · 📚 [Papers](#papers) · 🏅 [Honors](#honors)
 > 🎓 [Education](#education) · ✉ [Contact](#contact)
-> 💻 [GitHub](https://github.com/Passer1202) · 📕 [Rednote](https://www.xiaohongshu.com/user/profile/66b59cd0000000001d0226f6)
+> 💻 [GitHub](https://github.com/Passer1202) · 📕 [Rednote](https://www.xiaohongshu.com/user/profile/66b59cd0000000001d0226f6) · 📝 [Zhihu](https://www.zhihu.com/people/passer-20-84)
 
 *I explore 3D generation, world models, and embodied intelligence.*
 
