@@ -2,7 +2,7 @@
 
 ## 2026–present
 
-**M.Eng. in Computer Science**\
+**Research Master’s Student in Computer Science and Technology**\
 School of Computer Science, Nanjing University.\
 Admitted by recommendation, without an entrance examination.
 
