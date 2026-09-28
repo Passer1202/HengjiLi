@@ -22,7 +22,7 @@ export const manifest: Manifest = {
     {
       "slug": "education",
       "title": "Education",
-      "body": "# Education\n\n## 2026–present\n\n**Research Master’s Student in Computer Science and Technology**\\\nSchool of Computer Science, Nanjing University.\\\nAdmitted by recommendation, without an entrance examination.\n\n## 2022–2026\n\n**B.Sc. in Computer Science**\\\nKuang Yaming Honors School, Nanjing University.\\\nFinal GPA: **4.51/5.00**.",
+      "body": "# Education\n\n## 2026–present\n\n**M.Eng. in Computer Science**\\\nSchool of Computer Science, Nanjing University.\\\nAdmitted by recommendation, without an entrance examination.\n\n## 2022–2026\n\n**B.Sc. in Computer Science**\\\nKuang Yaming Honors School, Nanjing University.\\\nFinal GPA: **4.51/5.00**.",
       "path": "education.md",
       "kind": "page",
       "apps": []
